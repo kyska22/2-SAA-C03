@@ -66,6 +66,8 @@ Define cómo se comparte el hardware subyacente en AWS:
 | **Dedicated Instance** | Hardware físico dedicado (pero sin control sobre ubicación) | Alto            | Cumplimiento normativo (ej. HIPAA, GDPR).                                       |
 | **Dedicated Host**   | Servidor físico completo asignado al usuario.  | Muy alto        | Licencias por-socket/núcleo (ej. SQL Server), control granular sobre el hardware. |
 
+<img src="./img/tenency.png" alt="Tenency Models" width="400" title="Tenency Models"/>
+
 ---
 
 ### **Diagrama: ¿Cuándo Usar Cada Modelo?**  
