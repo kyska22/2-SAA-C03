@@ -7,7 +7,7 @@ Aprender a redirigir tráfico entre instancias EC2 durante un fallo, manteniendo
 3. Validación de conectividad
 
 ## **Arquitectura Inicial**
-![Diagrama de arquitectura](.img/1.png)
+![Diagrama de arquitectura](/3-Compute/img/1.png)
 
 
 ## **Paso 1: Configuración Inicial**
@@ -83,7 +83,7 @@ aws ec2 associate-address \
 
 ## **Paso 4: Actualizar Rutas (Opcional para VPN/Direct Connect)**
 
-![Actualizar Rutas](.img/2.png)
+![Actualizar Rutas](/3-Compute/img/2.png)
 
 ### **4.1 Modificar tabla de ruteo**
 ```bash
